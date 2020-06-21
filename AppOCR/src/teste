@@ -1,0 +1,10 @@
+const img = fs.readFileSync(
+    "../assets",
+    "/learning.jpg", 
+    { encoding: 'base64'
+});
+
+console.log(img);
+// var image = "../assets/learning.jpg";
+
+console.log(image);

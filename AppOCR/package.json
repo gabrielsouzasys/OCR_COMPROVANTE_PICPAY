@@ -1,0 +1,22 @@
+{
+  "name": "app2_ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ../app2_ocr/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^2.3.0",
+    "tesseract.js": "^2.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
